@@ -1,7 +1,7 @@
 # carwing 
 It is a website to present one of my projects. Carwing is an one-stop RV travel service platform.
 </br>
-[Try here](https://right77.github.io/carwing/carwing/index.html"CARWING") 
+[Try here](https://right77.github.io/carwing/carwing/index.html) 
 to view the website.
 
 notice: click the "carwing" in the landing page to start.
