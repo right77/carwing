@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>aaa</title>
+
+<link rel="stylesheet" type="text/css" href="bgstretcher.css" />
+
+<script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="bgstretcher.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	
+        //  Initialize Backgound Stretcher	   
+		$('BODY').bgStretcher({
+			images: ['images/1.jpg', 'images/2.jpg', 'images/3.jpg'],
+			imageWidth: 1366, 
+            imageHeight: 768, 
+			slideDirection: 'N',
+			slideShowSpeed: 1000,
+			transitionEffect: 'fade',
+			sequenceMode: 'normal',
+			
+		});
+		
+	});
+</script>
+
+
+</head>
+<body>
+   
+</body>
+</html>
